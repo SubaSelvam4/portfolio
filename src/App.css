@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header ul li{
+    @apply px-2;
+}
+
+/* App.css 
+.bg-hero {
+    background-image: url('img/B.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+    */
+
+.bg-hero {
+    background:linear-gradient(
+        to bottom left,
+    rgb(197, 23, 23),
+    rgb(182, 67, 67),
+    rgb(190, 126, 126),
+    rgb(187, 159, 159)
+    );
+
+}
+
+
+.bg-header{
+    background:rgb(85, 12, 12);
+}
+
+.bg-about{
+    background:linear-gradient(
+        to bottom right, 
+        rgb(162, 0, 255), 
+        rgb(192, 84, 255), 
+        rgb(216, 150, 255), 
+        rgb(255, 255, 255)    /* End color */
+    );
+}
+
+.bg-project{
+    background:linear-gradient(
+        to bottom left, 
+        rgb(0, 255, 42), 
+        rgb(90, 255, 117),  
+        rgb(150, 255, 150),  
+        rgb(255, 255, 255)    /* End color */
+    );
+}
+
+.bg-resume {
+    background: linear-gradient(
+        to bottom right, 
+        rgb(255, 0, 0), 
+        rgb(253, 89, 89), 
+        rgb(255, 148, 148), 
+        rgb(255, 253, 253)
+    );
+    /*border: 2px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 0 15px -5px rgba(0, 0, 0, 0.5); /* Shadow on the right side */
+    
+}
+
+.bg-contact{
+    background:linear-gradient(
+        to bottom left, 
+        rgb(162, 0, 255) ,
+        rgb(193, 85, 255), 
+        rgb(215, 145, 255),  
+        rgb(247, 237, 253)    /* End color */
+    );
+}
+
+.bg-footer{
+    background:rgb(85, 12, 12);
+}
+
+.bg-primary{
+    background:linear-gradient(
+        to bottom left, 
+        rgb(67, 69, 211), 
+        rgb(255, 83, 169), 
+        rgb(247, 144, 26), 
+        rgb(255, 255, 255)    /* End color */
+    );
+}
+
+
+
+
+.mobile-nav{
+    @apply fixed top-10 left-0 bg-slate-900 w-full h-1/4;
+}
+.mobile-nav li {
+@apply w-full h-full text-center border-b-2;
+}
+.project-desc{
+    @apply absolute left-0 right-0 bottom-0 top-0 bg-primary opacity-0 hover:opacity-100 duration-500;
+}
+/*.btn {
+    @apply bg-primary px-5 py-2 font-bold  hover:border-red-700 border-2 border-secondary;
+} */
+.btn {
+    @apply bg-gradient-to-r from-red-500 to-red-500 text-white px-6 py-3 rounded-full shadow-lg 
+           font-semibold hover:from-red-600 hover:to-red-600 hover:shadow-xl transition-all 
+           duration-300 ease-in-out;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+.p-one {
+    background-color: rgb(162, 0, 255); /* Purple background color */
+    border-radius: 100% 0px 100% 0px; /* Adds rounded corners */
+    padding: 10px; /* Adds padding inside the <p> tag */
+    color: white; /* Sets text color to white for better contrast */
+    width: 400px; /* Fixed width */
+    height: 50px; /* Fixed height */
+    display: flex; /* Optional: Centers content */
+    justify-content: center; /* Optional: Centers content horizontally */
+    align-items: center; /* Optional: Centers content vertically */
+    text-align: center; /* Optional: Centers text inside the <p> tag */
+}
+
+.p-two {
+    background-color: rgb(162, 0, 255); /* Purple background color */
+    border-radius: 100% 0px 100% 0px; /* Adds rounded corners */
+    padding: 10px; /* Adds padding inside the <p> tag */
+    color: white; /* Sets text color to white for better contrast */
+    width: 400px; /* Fixed width */
+    height: 50px; /* Fixed height */
+    display: flex; /* Optional: Centers content */
+    justify-content: center; /* Optional: Centers content horizontally */
+    align-items: center; /* Optional: Centers content vertically */
+    text-align: center; /* Optional: Centers text inside the <p> tag */
+}
+    
